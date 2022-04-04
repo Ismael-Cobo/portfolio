@@ -30,7 +30,7 @@ export const Project = () => {
                     <div className='project__text__content'>
                         <h3 className='project__title'>ToDO App</h3>
                         <h4 className='project__tech'>React, jest, enzyne</h4>
-                        <p className='project__desc'>Es una aplicación que funciona como una lista de tareas, donde puedes añadir tareas, marcarlas como completadas y eliminarlas.</p>
+                        <p className='project__desc'>Es una aplicación que funciona como una lista de tareas, donde puedes añadir estas, marcarlas como completadas y eliminarlas.</p>
                     </div>
                     <img className='project__img' src={todoApp} alt="todoapp img" />
                     <div className='project__icon__content'>
