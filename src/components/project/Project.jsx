@@ -43,8 +43,8 @@ export const Project = () => {
                     <div className='project__text__content'>
                         <h3 className='project__title'>Heroes App</h3>
                         <h4 className='project__tech'>React, react-router-dom, context, jest, enzyne</h4>
-                        <p className='project__desc'>Aplicación que te muestra un listado con heroes y si haces clic puedes ver los detalles de cada heroe.</p>
-                        <p className='project__desc'>Además, tiene un buscador para buscar heroes.</p>
+                        <p className='project__desc'>Aplicación que te muestra un listado con héroes y si haces clic puedes ver los detalles de cada heroe.</p>
+                        <p className='project__desc'>Además, tiene un buscador para buscar héroes.</p>
                     </div>
                     <img className='project__img' src={heroesApp} alt="heroes app img" />
                     <div className='project__icon__content'>
