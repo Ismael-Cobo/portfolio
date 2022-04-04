@@ -1,0 +1,45 @@
+.projects__content  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    gap: 5rem;
+    margin-top: 3rem;
+    grid-template-rows: auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 400px) {
+        .project {
+            width: 300px;
+        }
+}
+
+.project__text__content {
+    height: 100%;
+    max-height: 220px;
+}
+
+.project__img {
+    height: 400px;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.project__icon__content {
+    margin-top: 1rem;
+}
+
+.project__icon {
+    color: grey;
+    transition: color 200ms;
+    margin-left: 1rem;
+
+}
+
+.project__icon:hover {
+    color: var(--clr-primary-5);
+    
+}

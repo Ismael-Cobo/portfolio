@@ -1,0 +1,50 @@
+.resume__content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1100px) {
+    .resume__content {
+        flex-direction: column;
+    }
+}
+
+.resume__study__content{
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+
+    .resume__study__content {
+        width: 100%;
+    }
+}
+
+
+.study__time {
+    background-color: var(--clr-primary-11);
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+
+.study__school {
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+}
+
+.study__tech__icons__content {
+    display: flex;
+    gap: 2rem;
+}
+
+.tech__icon {
+    padding: 5px 10px;
+    background-color: var(--clr-grey-9);
+    width: 100px;
+    text-align: center;
+    font-weight: 500;
+}

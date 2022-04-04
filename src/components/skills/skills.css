@@ -1,0 +1,19 @@
+.skills__desc {
+    margin-top: 3rem;
+}
+
+.framewrks__cards {
+    display: flex;
+    gap: 2rem;
+    flex-flow: row wrap;
+    margin-top: 2rem;
+}
+
+.framework__card {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.framework__icon {
+    font-size: 2rem;
+}
