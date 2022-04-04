@@ -9,7 +9,7 @@ export const Skills = () => {
         <div className="white_box " id="skills">
             <h2>Tecnologías</h2>
 
-            <p className="skills__desc">Estas son las tecnologías o herramientas con las que he trabajado recientemente, o las cuales tengo interes.</p>
+            <p className="skills__desc">Estas son las tecnologías o herramientas con las que he trabajado recientemente, o las cuales tengo interés.</p>
             <div className='frameworks__content'>
                 <h3>Frameworks/Librerías</h3>
                 <div className='framewrks__cards'>
