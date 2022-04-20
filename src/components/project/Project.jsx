@@ -35,7 +35,7 @@ export const Project = () => {
                     <img className='project__img' src={todoApp} alt="todoapp img" />
                     <div className='project__icon__content'>
                         <a className='project__icon' href="https://github.com/Ismael-Cobo/ToDO-app-and-tests" target='_blank' rel='noreferrer'> <BsGithub /> github</a>
-                        <a className='project__icon' href="https://aesthetic-praline-be21ac.netlify.app/" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
+                        <a className='project__icon' href="https://ismaelcobotodoapp.netlify.app/" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ export const Project = () => {
                     <img className='project__img' src={heroesApp} alt="heroes app img" />
                     <div className='project__icon__content'>
                         <a className='project__icon' href="https://github.com/Ismael-Cobo/heroeApp" target='_blank' rel='noreferrer'> <BsGithub /> github</a>
-                        <a className='project__icon' href="https://adorable-meerkat-f12afe.netlify.app/" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
+                        <a className='project__icon' href="https://ismaelcoboheroes.netlify.app/login" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
                     </div>
                 </div>
                 <div className='project'>
@@ -63,8 +63,8 @@ export const Project = () => {
                     </div>
                     <img className='project__img' src={calendario} alt="calendar app img" />
                     <div className='project__icon__content'>
-                        <a className='project__icon' href="google.es" target='_blank' rel='noreferrer'> <BsGithub /> github</a>
-                        <a className='project__icon' href="google.es" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
+                        <a className='project__icon' href="#" target='_blank' rel='noreferrer'> <BsGithub /> github</a>
+                        <a className='project__icon' href="#" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
                     </div>
                 </div>
             </div>
