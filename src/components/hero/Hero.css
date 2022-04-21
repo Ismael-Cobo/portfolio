@@ -50,9 +50,17 @@
     font-size: 3rem;
     font-weight: 300;
     color: var(--clr-grey-1);
+    margin-bottom: 2rem;
 }
 
 .hero__name {
     font-size: 4rem;
     color: var(--clr-grey-9);
+}
+
+.hero__cv {
+    color: white;
+    background-color: var(--clr-grey-1);
+    padding: 1rem;
+    border-radius: 10px;
 }
