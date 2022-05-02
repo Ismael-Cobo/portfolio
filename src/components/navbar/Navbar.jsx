@@ -10,8 +10,6 @@ import { IoPersonOutline, IoHomeOutline } from 'react-icons/io5'
 
 import { useWindowSize } from "../../hook/useWindowSize";
 
-import profileImg from '../../assets/img/stockimg.jpg'
-
 import './Navbar.css'
 
 
@@ -53,7 +51,6 @@ export const Navbar = () => {
             <header ref={ref} className='header'>
                 <div className='header__container'>
                     <div className='header__profile'>
-                        <img className='profile__img' src={profileImg} alt="Ismael Cobo Protafolio" />
                         <h3 className="profile__name">Ismael Cobo</h3>
                         <div className='profile__icons__content'>
                             <a className="profile__icons__link" href="https://www.linkedin.com/in/ismael-cobo-434465214/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
