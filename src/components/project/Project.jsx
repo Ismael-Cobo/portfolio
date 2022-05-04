@@ -79,8 +79,9 @@ export const Project = () => {
                     </div>
                     <img className='project__img' src={calendario} alt="calendar app img" />
                     <div className='project__icon__content'>
-                        <a className='project__icon' href="https://portfolioismaelcobo.netlify.app/" target='_blank' rel='noreferrer'> <BsGithub /> github</a>
-                        <a className='project__icon' href="https://portfolioismaelcobo.netlify.app/" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
+                        <a className='project__icon' href="https://github.com/Ismael-Cobo/calendar-app-front" target='_blank' rel='noreferrer'> <BsGithub /> github (Back)</a>
+                        <a className='project__icon' href="https://github.com/Ismael-Cobo/calendar-app-back" target='_blank' rel='noreferrer'> <BsGithub /> github (Front)</a>
+                        <a className='project__icon' href="https://mern-calendar-icv.herokuapp.com/" target='_blank' rel='noreferrer'> <MdLiveTv /> live demo</a>
                     </div>
                 </div>
             </div>
