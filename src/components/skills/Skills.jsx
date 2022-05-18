@@ -1,5 +1,5 @@
 import { FaReact } from 'react-icons/fa'
-import { SiRedux, SiJest, SiTestinglibrary, SiAirbnb, SiNestjs, SiNextdotjs, SiTypescript, SiFirebase, SiMongodb } from 'react-icons/si'
+import { SiRedux, SiJest, SiTestinglibrary, SiAirbnb, SiNestjs, SiNextdotjs, SiTypescript, SiFirebase, SiMongodb, SiStorybook } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
 
 import './skills.css'
@@ -12,7 +12,7 @@ export const Skills = () => {
 
             <p className="skills__desc">Estas son las tecnologías o herramientas con las que he trabajado recientemente, o las cuales tengo interés.</p>
             <div className='frameworks__content'>
-                <h3>Frameworks/Librerías</h3>
+                <h3>Frameworks/Librerías/Utilidades</h3>
                 <div className='framewrks__cards'>
                     <div className='framework__card'>
                         <FaReact className='framework__icon' />
@@ -33,6 +33,14 @@ export const Skills = () => {
                     <div className='framework__card'>
                         <FaNodeJs className='framework__icon' />
                         <p>NodeJS</p>
+                    </div>
+                    <div className='framework__card'>
+                        <SiTypescript className='framework__icon' />
+                        <p>Typescript</p>
+                    </div>
+                    <div className='framework__card'>
+                        <SiStorybook className='framework__icon' />
+                        <p>Storybook</p>
                     </div>
                 </div>
             </div>
@@ -65,10 +73,6 @@ export const Skills = () => {
                     <div className='framework__card'>
                         <SiNextdotjs className='framework__icon' />
                         <p>Next</p>
-                    </div>
-                    <div className='framework__card'>
-                        <SiTypescript className='framework__icon' />
-                        <p>Typescript</p>
                     </div>
                 </div>
             </div>
