@@ -1,5 +1,5 @@
 import { FaReact } from 'react-icons/fa'
-import { SiRedux, SiJest, SiTestinglibrary, SiAirbnb, SiNestjs, SiNextdotjs, SiTypescript, SiFirebase, SiMongodb, SiStorybook } from 'react-icons/si'
+import { SiRedux, SiJest, SiTestinglibrary, SiAirbnb, SiNestjs, SiNextdotjs, SiTypescript, SiFirebase, SiMongodb, SiStorybook, SiStyledcomponents } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
 
 import './skills.css'
@@ -41,6 +41,10 @@ export const Skills = () => {
                     <div className='framework__card'>
                         <SiStorybook className='framework__icon' />
                         <p>Storybook</p>
+                    </div>
+                    <div className='framework__card'>
+                        <SiStyledcomponents className='framework__icon' />
+                        <p>Styled components</p>
                     </div>
                 </div>
             </div>
