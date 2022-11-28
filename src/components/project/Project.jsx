@@ -145,28 +145,14 @@ export const Project = () => {
           <div className='project__icon__content'>
             <a
               className='project__icon'
-              href='https://github.com/Ismael-Cobo/calendar-app-front'
+              href='https://github.com/Ismael-Cobo/calendar-react-redux-toolkit'
               target='_blank'
               rel='noreferrer'
             >
               {' '}
-              <BsGithub /> github (front)
+              <BsGithub /> github
             </a>
-            <a
-              className='project__icon'
-              href='https://github.com/Ismael-Cobo/calendar-app-back'
-              target='_blank'
-              rel='noreferrer'
-            >
-              {' '}
-              <BsGithub /> github (back)
-            </a>
-            <a
-              className='project__icon'
-              href='https://mern-calendar-icv.herokuapp.com/'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a className='project__icon' href='https://calendar-ismael.netlify.app/' target='_blank' rel='noreferrer'>
               {' '}
               <MdLiveTv /> live demo
             </a>
